@@ -26,5 +26,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background:var(--red);
+    background-color:var(--red);
+}
+.appointment-btn{
+    padding: 14px 19px;
+    color:var(--red);
+    border:0;
+    border-radius: 4px;
 }
