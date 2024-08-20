@@ -44,3 +44,6 @@
   font-family: "Sarabun", sans-serif !important;
 }
 
+.bg-image{
+  background-image: url(/assets/image/webp/hero-section-bg-img.png) !important;
+}
