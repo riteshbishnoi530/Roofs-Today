@@ -77,40 +77,54 @@
   padding: 14px 19px;
   border-radius: 4px;
   opacity: 0px;
-  background: var(--red, #AC1F25);
+  background: var(--red, #ac1f25);
   color: white;
   border: none;
   transition: all 300ms linear;
 }
-.hero-sec-button:hover{
+.hero-sec-button:hover {
   background-color: red;
   color: white;
   transform: scale(1.1);
 }
-.section-para{
+.section-para {
   max-width: 572px;
   color: white;
 }
-.nav-lines{
+.nav-lines {
   width: 35px;
   height: 5px;
   border-radius: 10px;
   position: relative;
   z-index: 3;
 }
-.nav-bar{
+.nav-bar {
   height: 80px;
 }
-@media (max-width:992px) {
-  .mobile-view{
-    justify-content:  center;
+.under-line{
+  width: 196px;
+  height: 4px;
+  background: #FEFEFE;
+
+}
+.box {
+  width: 170px;
+  height: 66px;
+  padding: 13px 16px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media (max-width: 992px) {
+  .mobile-view {
+    justify-content: center;
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0%;
     left: -100%;
-    flex-direction: column ;
-    transition: all 300ms linear  ;
+    flex-direction: column;
+    transition: all 300ms linear;
     background-color: white;
     z-index: 2;
   }
