@@ -80,6 +80,12 @@
   background: var(--red, #AC1F25);
   color: white;
   border: none;
+  transition: all 300ms linear;
+}
+.hero-sec-button:hover{
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
 }
 .section-para{
   max-width: 572px;
@@ -91,6 +97,9 @@
   border-radius: 10px;
   position: relative;
   z-index: 3;
+}
+.nav-bar{
+  height: 80px;
 }
 @media (max-width:992px) {
   .mobile-view{
