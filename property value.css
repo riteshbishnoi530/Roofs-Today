@@ -167,10 +167,18 @@
 
 .sec-3-call-btn {
     width: 183px;
-    height: 5px;
+    height: 51px;
     padding: 14px 13px 14px 13px;
     border-radius: 4px;
     background: var(--red, #AC1F25);
+    color: white;
+}
+
+.sec-3-number {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
 
 }
 
