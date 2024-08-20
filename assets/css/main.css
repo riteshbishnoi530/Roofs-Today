@@ -16,12 +16,12 @@
   border-radius: 4px;
   padding: 13px 14px;
   color: var(--red, #ac1f25);
+  transition: all 300ms linear;
 }
 .hero-button-1:hover {
   background-color: #ac1f25;
   color: white;
   transform: scale(1.1);
-  transition: all 300ms linear;
 }
 .hero-button-2 {
   background: var(--red, #ac1f25);
@@ -29,12 +29,12 @@
   padding: 13px 14px;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 300ms linear;
 }
 .hero-button-2:hover {
   background-color: #ac1f25;
   color: white;
   transform: scale(1.1);
-  transition: all 300ms linear;
 }
 .nav-number {
   color: white;
@@ -44,6 +44,65 @@
   font-family: "Sarabun", sans-serif !important;
 }
 
-.bg-image{
+.bg-image {
   background-image: url(/assets/image/webp/hero-section-bg-img.png) !important;
+}
+.pin-button {
+  color: white;
+  border: 1px solid var(--red, #ac1f25);
+  width: 241px;
+  height: 45px;
+  padding: 12px 14px;
+  border-radius: 4px;
+  opacity: 0px;
+  cursor: pointer;
+  background-color: #282025;
+  transition: all 300ms linear;
+}
+.pin-button:hover {
+  background-color: #847778;
+  transform: scale(1.1);
+  border: none;
+}
+.sec-heading {
+  color: white;
+}
+.hero-sec-para {
+  color: white;
+  max-width: 611px;
+}
+.hero-sec-button {
+  width: 356px;
+  height: 73px;
+  padding: 14px 19px;
+  border-radius: 4px;
+  opacity: 0px;
+  background: var(--red, #AC1F25);
+  color: white;
+  border: none;
+}
+.section-para{
+  max-width: 572px;
+  color: white;
+}
+.nav-lines{
+  width: 35px;
+  height: 5px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 3;
+}
+@media (max-width:992px) {
+  .mobile-view{
+    justify-content:  center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    flex-direction: column ;
+    transition: all 300ms linear  ;
+    background-color: white;
+    z-index: 2;
+  }
 }
