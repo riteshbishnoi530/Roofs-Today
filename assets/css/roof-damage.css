@@ -25,3 +25,17 @@
     width: 100%;
 }
 
+.heading-underline {
+    position: relative;
+}
+
+.heading-underline:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    max-width: 230px;
+    width: 100%;
+    bottom: 5px;
+    background: #AC1F25;
+    z-index: -1;
+}
