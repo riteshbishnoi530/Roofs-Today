@@ -127,6 +127,9 @@
   padding-left: 101px;
   padding-top: 35px;
 }
+.max-width-250{
+  max-width: 250px;
+}
 .box-text {
   padding-left: 80px;
   color: #000000;
