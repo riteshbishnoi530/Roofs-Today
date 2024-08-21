@@ -10,6 +10,14 @@
     --fs-lg:18px;
     --fs-md:16px;
     --fs-sm:14px;
+    /*---------------color---------------*/
+    --white:#FFFFFF;
+    --white-gradient:#FFFFFF80;
+    --red:#AC1F25;
+    --grey:#3E3E3E;
+}
+.text-grey{
+    color:var(--grey);
 }
 .fs-7xl{
     font-size:var(--fs-7xl);

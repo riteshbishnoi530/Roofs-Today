@@ -11,3 +11,17 @@
 .mt-40 {
     margin-top: 40px !important;
 }
+
+.color {
+    color: #3E3E3E;
+}
+
+.style-italic {
+    font-style: italic;
+}
+
+.para {
+    max-width: 721px;
+    width: 100%;
+}
+
