@@ -1,0 +1,36 @@
+@import url(./root.css);
+.opacity-80{
+    opacity: 80% !important;
+}
+.footer-link{
+    text-decoration: none;
+    opacity: 80%;
+    color:var(--white);
+}
+.height-1px{
+    height: 1px;
+    width: 100%;
+    background-color:var(--white-gradient);
+}
+.mt-134{
+    margin-top: 134px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.max-width-625{
+    max-width: 625px;
+}
+.red-box-bg-layer{
+    background-image:url(/assets/image/webp/footer-red-box-bg-layer.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:var(--red);
+}
+.appointment-btn{
+    padding: 14px 19px;
+    color:var(--red);
+    border:0;
+    border-radius: 4px;
+}
