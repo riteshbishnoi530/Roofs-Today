@@ -182,6 +182,10 @@
     box-shadow: 0px 10px 23.9px 0px #0000001C;
     border-radius: 6px;
 }
+.sticky{
+    position: sticky;
+    top: 0;
+}
 .my-27{
     margin-top: 27px;
     margin-bottom: 27px;
@@ -293,7 +297,6 @@
 
 /* ]================================= section-3 ================================= */
 .sec-3-heading {
-    font-size: 42px;
     font-weight: 800;
     line-height: 54.6px;
     text-align: left;
@@ -303,6 +306,7 @@
 .sec-3-heading::after {
     position: absolute;
     content: "";
+    font-size: 42px;
     width: 214px;
     height: 8px;
     bottom: 7px;
@@ -335,6 +339,9 @@
     line-height: 24px;
     text-align: left;
 
+}
+.max-width-323{
+    max-width: 323px;
 }
 
 .sec-3-card-2-parent {
@@ -381,7 +388,19 @@
 .pb-24 {
     padding-bottom: 24px;
 }
-
+.roofing-damage-underline{
+    position: relative;
+}
+.roofing-damage-underline:before{
+    position: absolute;
+    content: "";
+    height: 10px;
+    max-width: 383px;
+    width: 100%;
+    bottom: 5px;
+    background: #AC1F25;
+    z-index: -1;
+}
 /* --------------------------- */
 .mb-30 {
     margin-bottom: 30px;
@@ -502,6 +521,19 @@
     line-height: 54.6px;
     text-align: left;
 }
+.type-of-roof-underline{
+    position: relative;
+}
+.type-of-roof-underline:before{
+    position: absolute;
+    content: "";
+    height: 10px;
+    max-width: 420px;
+    width: 100%;
+    bottom: 7px;
+    background: #AC1F25;
+    z-index: -1;
+}
 /* ------------------- */
   
   .heading-underline {
@@ -562,17 +594,6 @@
 .sec-8-bold-heading {
     font-weight: 800;
     line-height: 54.6px;
-}
-
-.sec-8-bold-heading::after {
-    position: absolute;
-    content: "";
-    width: 287px;
-    height: 7px;
-    background-color: #AC1F25;
-    bottom: 7px;
-    z-index: -1;
-    left: 0;
 }
 
 .sec-8-para-2 {
@@ -650,6 +671,10 @@
 .red-box{
     transform: translate(0, -40%);
 }
+/* ------------margin-bottom-90------------ */
+.mb-90{
+    margin-bottom: 90px;
+}
   /* ------------------------------------media-quary--------------------------- */
   @media (max-width: 992px) {
     .mobile-view {
@@ -664,6 +689,10 @@
       background-color: white;
       z-index: 2;
     }
+        .sticky{
+            position: relative !important;
+        }
+        
   }
 @media (max-width: 768px){
     .hero-sec-button{
@@ -671,5 +700,8 @@
     }
     .mt-134{
         margin-top: 50px;
+    }
+    .card-container{
+        transform: translate(0, 20%);
     }
   }
