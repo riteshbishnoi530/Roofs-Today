@@ -133,7 +133,16 @@
   color: #000000;
 }
 
-
+.after-line::after{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 167px; 
+  top: 10%;
+  right: -10%;
+  background-color: black;
+  
+}
 /* ------------------------------------media-quary--------------------------- */
 @media (max-width: 992px) {
   .mobile-view {
