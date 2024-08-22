@@ -232,8 +232,43 @@
     padding-right: 24px;
 }
 
+/* --------------------------- */
+.mb-30 {
+    margin-bottom: 30px;
+}
 
+.mt-40 {
+    margin-top: 40px !important;
+}
 
+.color {
+    color: #3E3E3E;
+}
+
+.style-italic {
+    font-style: italic;
+}
+
+.para {
+    max-width: 721px;
+    width: 100%;
+}
+
+.heading-underline {
+    position: relative;
+}
+
+.heading-underline:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    max-width: 230px;
+    width: 100%;
+    bottom: 5px;
+    background: #AC1F25;
+    z-index: -1;
+}
+/* ------------------------------ */
 .heading {
     font-family: "Sarabun", sans-serif;
     font-size: 42px;
