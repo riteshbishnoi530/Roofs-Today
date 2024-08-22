@@ -128,16 +128,16 @@
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 1140px;
+    width: 100%;
     margin: auto;
     transform: translate(0, 50%);
 }
 .card {
     text-align: center;
-    flex: 1;
-    padding: 10px;
-    position: relative;
+    padding: 20px;
     border: none !important;
+    max-width: 200px;
 }
 .card:not(:last-child) {
     border-right: 1px solid #e0e0e0;
@@ -557,7 +557,6 @@
 
 .sec-8-box {
     padding: 12px 13px;
-    max-width: 228px;
     border-radius: 6px;
     border: 1px solid #0000001A;
 }
@@ -682,5 +681,8 @@
 @media (max-width: 768px){
     .hero-sec-button{
       padding: 10px 13px;
+    }
+    .mt-134{
+        margin-top: 50px;
     }
   }
