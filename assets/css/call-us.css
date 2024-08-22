@@ -2,28 +2,6 @@
 
 * {
     font-family: "Sarabun", sans-serif;
-    
-}
-
-.mb-30 {
-    margin-bottom: 30px;
-}
-
-.mt-40 {
-    margin-top: 40px !important;
-}
-
-.color {
-    color: #3E3E3E;
-}
-
-.style-italic {
-    font-style: italic;
-}
-
-.para {
-    max-width: 721px;
-    width: 100%;
 }
 
 .heading-underline {
@@ -34,9 +12,26 @@
     position: absolute;
     content: "";
     height: 10px;
-    max-width: 230px;
+    max-width: 240px;
     width: 100%;
-    bottom: 5px;
+    bottom: 7px;
     background: #AC1F25;
     z-index: -1;
+}
+.text-grey{
+    color:var(--grey);
+}
+.para{
+    max-width: 721px;
+    margin-bottom: 40px;
+}
+.service-para{
+    max-width: 721px;
+    margin-bottom: 20px;
+}
+.style-italic {
+    font-style: italic;
+}
+.mt-30{
+    margin-top: 30px;
 }
