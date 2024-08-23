@@ -25,7 +25,6 @@
   .hero-button-1:hover {
     background-color: #ac1f25;
     color: white;
-    transform: scale(1.1);
   }
   .hero-button-2 {
     background: var(--red, #ac1f25);
@@ -38,7 +37,6 @@
   .hero-button-2:hover {
     background-color: #ac1f25;
     color: white;
-    transform: scale(1.1);
   }
   .nav-number {
     color: white;
@@ -53,19 +51,12 @@
   .pin-button {
     color: white;
     border: 1px solid var(--red, #ac1f25);
-    width: 241px;
-    height: 45px;
+    background-color: #847778;
     padding: 12px 14px;
     border-radius: 4px;
     opacity: 0px;
     cursor: pointer;
-    background-color: #282025;
     transition: all 300ms linear;
-  }
-  .pin-button:hover {
-    background-color: #847778;
-    transform: scale(1.1);
-    border: none;
   }
   .sec-heading {
     color: white;
@@ -84,8 +75,9 @@
     transition: all 300ms linear;
   }
   .hero-sec-button:hover {
-    background-color: red;
     color: white;
+  }
+  .tranform-scale:hover{
     transform: scale(1.1);
   }
   .section-para {
@@ -99,8 +91,9 @@
     position: relative;
     z-index: 3;
   }
-  .nav-bar {
-    height: 80px;
+  .py-14{
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
   .under-line {
     width: 196px;
@@ -114,6 +107,10 @@
     background-color: white;
     border-radius: 10px;
     cursor: pointer;
+    transition: all .3s linear;
+  }
+  .box:hover{
+    transform: scale(1.1);
   }
   .box-shadow {
     background: #ffffff;
@@ -177,7 +174,6 @@
     transition: all .3s linear;
 }
 .tel-btn:hover{
-    transform: scale(1.1);
 }
 .sticky-card{
     box-shadow: 0px 10px 23.9px 0px #0000001C;
@@ -351,16 +347,6 @@
     padding: 21px 22px;
     border-radius: 10px;
 }
-
-.sec-3-call-btn {
-    padding: 14px 13px 14px 13px;
-    border-radius: 4px;
-    border:0;
-    background: var(--red, #AC1F25);
-
-}
-
-
 /* ========================================================================= */
 .gap-18 {
     gap: 18px;
@@ -447,6 +433,9 @@
     text-align: left;
     max-width: 721px;
 }
+.roof-inspection{
+    cursor: pointer;
+}
 
 .para {
     max-width: 720px;
@@ -480,6 +469,7 @@
     border-radius: 4px;
     border: 1px solid #0000001A;
     box-shadow: 0px 1px 13.7px 0px #00000014;
+    cursor: pointer;
 }
 
 .num {
@@ -661,9 +651,6 @@
     color:var(--red);
     border:0;
     border-radius: 4px;
-}
-.appointment-btn:hover{
-    transform: scale(1.1);
 }
 .py-61{
     padding-top: 61px;
