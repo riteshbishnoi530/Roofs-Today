@@ -4,6 +4,12 @@
 .font-Sarabun {
     font-family: "Sarabun", sans-serif;
 }
+.line-height-160{
+    line-height: 160%;
+}
+.line-height-130{
+    line-height: 130%;
+}
 
 /* ----------------nav-bar---------------- */
 .hero-sec-head {
@@ -145,7 +151,7 @@
 .white-box {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding:46px 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -159,8 +165,6 @@
     width: 2px;
     height: 100%;
     background-image: linear-gradient(90deg, rgba(172, 31, 37, 0) 1%, #AC1F25 58%, rgba(172, 31, 37, 0) 100%);
-
-
     position: absolute;
     top:0;
     left: 100%;
@@ -217,8 +221,6 @@
     transition: all .3s linear;
 }
 
-.tel-btn:hover {}
-
 .sticky-card {
     box-shadow: 0px 10px 23.9px 0px #0000001C;
     border-radius: 6px;
@@ -237,7 +239,7 @@
 /* --------------property-value--------------- */
 .pt-206 {
     padding-top: 206px;
-    padding-bottom: 206px;
+    padding-bottom: 135px;
 }
 
 .tele-number {
@@ -757,7 +759,13 @@
 
 /* ------------margin-bottom-90------------ */
 .mb-90 {
-    margin-bottom: 90px;
+    margin-bottom: 80px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-70{
+    margin-bottom: 65px;
 }
 
 /* ------------------------------------media-quary--------------------------- */
@@ -777,6 +785,9 @@
 
     .sticky {
         position: relative !important;
+    }
+    .line::after{
+        display: none;
     }
 
 }
